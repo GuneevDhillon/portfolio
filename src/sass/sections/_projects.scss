@@ -76,3 +76,17 @@
     }
   }
 }
+
+/* Left-align all experience text by default */
+#experience .project-wrapper__text { text-align: left; }
+
+/* Center only the header block (title + dates) */
+#experience .exp-header,
+#experience .exp-header h3,
+#experience .exp-header .exp-dates { text-align: center;}
+
+/* Keep buttons aligned with left text */
+#experience .project-wrapper__text .cta-btn {
+  margin-left: 0 !important;
+  margin-right: .75rem;
+}

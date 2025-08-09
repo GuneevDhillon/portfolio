@@ -77,3 +77,19 @@
     }
   }
 }
+
+.typewriter {
+  display: inline-block;
+  white-space: nowrap;
+}
+.typewriter::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 1em;
+  background: currentColor;
+  margin-left: 2px;
+  animation: blink 1s steps(1) infinite;
+  vertical-align: -0.1em;
+}
+@keyframes blink { 50% { opacity: 0; } }
