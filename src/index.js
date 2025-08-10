@@ -7,10 +7,10 @@ initTiltEffect();
 
 const phrases = [
   "Software Developer...",
-  "Student...",
-  "AI Tinkerer...",
   "Signal Processing Engineer...",
-  "Python + JS builder..."
+  "Python + JS builder...",
+  "AI Tinkerer...",
+  "Student...",
 ];
 
 const el = document.getElementById("typewriter");
